@@ -60,13 +60,7 @@ const ContactUs = () => {
                 Ready to Transform Your Workforce?
               </div>
               <div className="text-[#576A8A]">
-                At Labour Connect, we understand that every business has unique
-                staffing needs and budgets. That's why we offer customized
-                pricing solutions tailored to your specific requirements.
-                Contact us today to discuss your staffing needs and request a
-                personalized quote. Our team is here to help you find the right
-                staffing solution at a competitive price point that fits your
-                budget.
+                LOREM IPSUM
               </div>
             </div>
             <div className="p-10 bg-[#F8F9FD] rounded-3xl">

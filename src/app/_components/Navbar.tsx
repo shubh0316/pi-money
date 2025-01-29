@@ -6,6 +6,7 @@ import logo from '@/assets/logo.png';
 import { Button } from '@/components/ui/Button';
 import { Menu, X } from 'lucide-react';
 import Container from './Container';
+import Link from 'next/link';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,9 +22,9 @@ function Navbar() {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
-            <a href="#" className="text-lg hover:text-blue-500">Home</a>
-            <a href="#" className="text-lg hover:text-blue-500">About Us</a>
-            <a href="#" className="text-lg hover:text-blue-500">Contact Us</a>
+            <Link href="/" className="text-lg hover:text-blue-500">Home</Link>
+            <Link href="/AboutUs" className="text-lg hover:text-blue-500">About Us</Link>
+            <Link href="/ContactUs" className="text-lg hover:text-blue-500">Contact Us</Link>
           </div>
           
           {/* Button */}

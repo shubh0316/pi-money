@@ -46,6 +46,7 @@ const ContactUs = () => {
 
   return (
     <>
+    <div className="bg-white rounded-bl-[100px] rounded-br-[100px]"> 
       <div className="pb-10">
         <div className="hidden">
           <h1> Contact Us </h1>
@@ -63,7 +64,7 @@ const ContactUs = () => {
                 LOREM IPSUM
               </div>
             </div>
-            <div className="p-10 bg-[#F8F9FD] rounded-3xl">
+            <div className="p-10 bg-[#F8F9FD] rounded-3xl mb-10">
               <h1 className="text-2xl md:text-4xl  font- pb-2">Contact Us</h1>
 
               <form action={clientAction} className="gap-4 mt-3">
@@ -78,7 +79,7 @@ const ContactUs = () => {
                           Name<span className="text-red-500">*</span>
                         </FormLabel>
                         <FormControl>
-                          <Input placeholder="Name" {...field} />
+                          <Input className="bg-white" placeholder="Name" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -93,7 +94,7 @@ const ContactUs = () => {
                           Email Address <span className="text-red-500">*</span>
                         </FormLabel>
                         <FormControl>
-                          <Input placeholder="Email Address" {...field} />
+                          <Input className="bg-white" placeholder="Email Address" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -123,7 +124,7 @@ const ContactUs = () => {
                   <div className="w-full mt-10">
                     <Button
                       disabled={loading}
-                      className="w-full rounded-full bg-customblue px-8 py-6"
+                      className="w-full text-lg text-white rounded-full bg-[#0171DF] px-8 py-6"
                       type="submit"
                     >
                       Submit
@@ -134,6 +135,7 @@ const ContactUs = () => {
             </div>
           </div>
         </Form>
+      </div>
       </div>
     </>
   );

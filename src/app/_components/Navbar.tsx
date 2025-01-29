@@ -48,9 +48,9 @@ function Navbar() {
         transition={{ duration: 0.3, ease: 'easeInOut' }}
         className="absolute w-full bg-white shadow-md overflow-hidden md:hidden flex flex-col items-start space-y-4 py-4 px-8"
       >
-        <a href="#" className="text-lg hover:text-blue-500">Home</a>
-        <a href="#" className="text-lg hover:text-blue-500">About Us</a>
-        <a href="#" className="text-lg hover:text-blue-500">Contact Us</a>
+          <Link href="/" className="text-lg hover:text-blue-500">Home</Link>
+          <Link href="/AboutUs" className="text-lg hover:text-blue-500">About Us</Link>
+          <Link href="/ContactUs" className="text-lg hover:text-blue-500">Contact Us</Link>
         <Button className='border rounded-full text-white px-6 py-3 text-lg bg-[#0171DF] hover:bg-[#0171DF]'>Buy Template</Button>
       </motion.div>
     </nav>

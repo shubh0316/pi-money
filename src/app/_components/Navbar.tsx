@@ -12,7 +12,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md relative z-50">
+    <nav className="bg-white  relative z-50">
       <Container>
         <div className="flex justify-between items-center p-4">
           {/* Logo */}
@@ -46,7 +46,7 @@ function Navbar() {
         initial={{ height: 0, opacity: 0 }}
         animate={{ height: isOpen ? 'auto' : 0, opacity: isOpen ? 1 : 0 }}
         transition={{ duration: 0.3, ease: 'easeInOut' }}
-        className="absolute w-full bg-white shadow-md overflow-hidden md:hidden flex flex-col items-start space-y-4 py-4 px-8"
+        className="absolute w-full bg-white  overflow-hidden md:hidden flex flex-col items-start space-y-4 py-4 px-8"
       >
           <Link href="/" className="text-lg hover:text-blue-500">Home</Link>
           <Link href="/AboutUs" className="text-lg hover:text-blue-500">About Us</Link>

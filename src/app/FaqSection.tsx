@@ -76,7 +76,7 @@ function FAQs() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 * index }}
                   key={index}
-                  className={`rounded-xl px-6 py-4 shadow-lg cursor-pointer transition-all duration-300 ${
+                  className={`rounded-xl px-6 py-4  cursor-pointer transition-all duration-300 ${
                     openIndex === index ? "bg-blue-100" : "bg-white"
                   }`}
                   onClick={() => handleToggle(index)}

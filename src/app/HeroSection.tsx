@@ -27,37 +27,36 @@ function HeroSection() {
       },
     });
   }, []);
-
   return (
     <div
       ref={heroRef}
-      className="w-full bg-gradient-to-b from-[#FEFFFD] h-[720px] via-[#FFFFFF] to-[#6DB6FF] rounded-bl-[100px] rounded-br-[100px] relative overflow-hidden md:mt-0"
+      className="w-full bg-gradient-to-b from-[#FEFFFD] h-[720px] via-[#FFFFFF] to-[#6DB6FF] rounded-bl-[20px] rounded-br-[20px] md:rounded-bl-[100px] md:rounded-br-[100px] relative overflow-hidden md:mt-0"
     >
       <Container>
         <div className="flex flex-col md:flex-row items-start justify-between relative z-10">
           {/* Text section stays at the top */}
-          <div className="text-center md:text-left md:mt-40">
+          <div className="text-left md:mt-40">
             <div className="flex flex-col space-y-8">
-              <h1 className="text-4xl text-[#002147] md:text-6xl font-semibold md:leading-[5rem] md:tracking-wider">
+              <h1 className="text-3xl text-[#002147] md:mt-0 mt-6 md:text-6xl font-semibold leading-[2.5rem] md:leading-[5rem] tracking-wider">
                 Empower Your <span className="text-[#0171DF]">Finances </span> For A Brighter Future.
               </h1>
-              <p className="text-[#334D6C] text-lg font-normal md:text-start text-center md:w-3/4">
+              <p className="text-[#334D6C] md:text-lg font-normal md:text-start  md:w-3/4">
                 Streamline your payments with GreenBank. Instant bank transfers,
                 hassle-free bill payments, and more – all at your fingertips.
               </p>
-              <div className="flex justify-center md:justify-start">
+              <div className="flex  md:justify-start">
                 <Button className="rounded-full px-8 py-6 text-white text-lg bg-[#0171DF] hover:bg-[#0171DF] font-semibold">
                   Download app
                 </Button>
               </div>
               <div className="flex space-x-2 ">
-               <Image src={avatar} alt=' ' /> <div className="text-center p-2 text-lg"> 200K+ Downloads</div>
+               <Image src={avatar} alt=' ' /> <div className=" p-2 text-lg"> 200K+ Downloads</div>
               </div>
             </div>
           </div>
 
           {/* Move only the image down */}
-          <div className="flex justify-center md:justify-end">
+          <div className="flex justify-end">
             <Image src={phone} alt="phone" width={650} className="relative z-0 mt-6 md:mt-32" />
           </div>
         </div>

@@ -51,18 +51,18 @@ function FAQs() {
   };
 
   return (
-    <div className="py-16 mt-20 rounded-bl-[100px] rounded-br-[100px]">
+    <div className="py-16 mt-10 md:mt-20 rounded-bl-[100px] rounded-br-[100px]">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
           {/* Left Section */}
           <div className="flex flex-col space-y-6">
-            <div className="text-5xl text-[#002147] tracking-wider leading-[4rem] font-semibold">
+            <div className="text-3xl md:text-5xl text-[#002147] tracking-wider md:leading-[4rem] font-semibold">
               Answers to your <span className="text-[#0171DF]">Questions</span>
             </div>
-            <p className="text-[#334D6C] text-[20px]">
+            <p className="text-[#334D6C] text-[15px] md:text-[20px]">
               Get answers to commonly asked questions about GreenBank and its features.
             </p>
-            <Button className="rounded-3xl text-md text-white bg-[#0171DF] w-40">
+            <Button className="rounded-3xl text-lg text-white bg-[#0171DF] self-start w-40">
               Contact Us
             </Button>
           </div>

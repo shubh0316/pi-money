@@ -8,16 +8,16 @@ function CustomStoriesSection() {
   return (
     <div>
       <Container>
-        <div className="mt-20 flex flex-col justify-around items-center space-y-4">
-          <div className="text-5xl text-[#002147] font-semibold text-center">
+        <div className="mt-10 md:mt-20 flex flex-col justify-around items-center space-y-4">
+          <div className="text-3xl md:text-5xl text-[#002147] font-semibold text-center">
             Customer <span className="text-[#0171DF]">Stories</span>
           </div>
-          <p className="text-[#334D6C] text-center text-[20px] md:w-1/2 ">
+          <p className="text-[#334D6C] text-center text-[15px] md:text-[20px] md:w-1/2 ">
             Discover why GreenBank is the smart choice for secure banking and
             personalized financial growth.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
-            <div className="border bg-[#E4E6F9] mt-10 rounded-3xl flex flex-col  text-start p-6 justify-between space-y-20">
+          <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4 mt-10">
+            <div className="border bg-[#E4E6F9] mt-10 rounded-3xl flex flex-col  text-start p-6 justify-between space-y-6 md:space-y-20">
               <div className="">
                 <Image src={stripe} alt="" width={100} />
               </div>
@@ -33,7 +33,7 @@ function CustomStoriesSection() {
                 <p>CEO, STRIPE</p>
               </div>
             </div>
-            <div className="border bg-[#FFF5C5] mt-10 rounded-3xl flex flex-col  text-start p-6 justify-between space-y-20">
+            <div className="border bg-[#FFF5C5] mt-10 rounded-3xl flex flex-col  text-start p-6 justify-between space-y-6 md:space-y-20">
               <div className="">
                 <Image src={shopify} alt="" width={150} />
               </div>
@@ -49,7 +49,7 @@ function CustomStoriesSection() {
                 <p>CTO, SHOPIFY</p>
               </div>
             </div>
-            <div className="border bg-[#D6E9FF] mt-10 rounded-3xl flex flex-col  text-start p-6 justify-between space-y-20">
+            <div className="border bg-[#D6E9FF] mt-10 rounded-3xl flex flex-col  text-start p-6 justify-between space-y-6 md:space-y-20">
               <div className="">
                 <Image src={aws} alt="" width={100} />
               </div>

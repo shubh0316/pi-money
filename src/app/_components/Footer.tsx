@@ -2,14 +2,14 @@ import React from "react";
 import { Separator } from "@/components/ui/separator";
 import Container from "./Container";
 import Image from "next/image";
-import footer from "@/assets/footer.png";
+import footer from "@/assets/logo.png";
 import { Button } from "@/components/ui/Button";
 const Footer = () => {
   return (
     <footer className="bg-[#D4EAFF]  py-8  sticky bottom-0 -z-20">
       <Container>
         <div className="flex md:flex-row flex-col justify-between ">
-         <Image src={footer} alt="" width={100}  />
+         <Image src={footer} alt="" className="w-40 h-24"   />
          <div className="flex flex-col space-y-10 items-start md:w-1/2">
          <div className="text-3xl font-semibold   text-[#002147]">Empowering your financial journey,<br />one transaction at a time.</div>
          <Button className='rounded-full px-6 py-4 text-white text-md bg-[#0171DF] hover:bg-[#0171DF]'>Buy Template</Button>

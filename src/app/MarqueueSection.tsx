@@ -11,10 +11,9 @@ import Container from "./_components/Container";
 function MarqueueSection() {
   return (
     <>
-    <div className="mx-auto max-w-7xl"> 
-    <div className="flex flex-col justify-center lg:flex-row items-center w-[95%] gap-6 lg:max-w-7xl mx-auto mt-20 lg:mt-26 mb-10">
-    
-      <div className="mr-5 lg:w-1/2 text-lg font-normal text-[#576A8A]">
+    <div className="flex flex-col justify-center lg:flex-row items-center w-[95%] gap-6 lg:max-w-7xl mx-auto mt-10 lg:mt-26 mb-10 overflow-hidden">
+  
+      <div className="p-4 lg:mr-5 lg:w-1/2   md:text-lg font-normal text-[#576A8A]">
         WE ARE PARTNERED WITH MORE THAN <span className="font-bold">50+</span>{" "}
         COMPANIES AROUND THE GLOBE.
       </div>
@@ -69,7 +68,6 @@ function MarqueueSection() {
     </div>
   </Marquee>
 </div>
-    </div>
     </div>
     </>
   );

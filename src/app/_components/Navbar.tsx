@@ -29,7 +29,7 @@ function Navbar() {
           
           {/* Button */}
           <div className="hidden md:block">
-            <Button className='border rounded-full px-8 py-6 text-white text-md font-normal bg-[#0171DF] hover:bg-[#0171DF]'>Buy Template</Button>
+            <Button className='border rounded-full px-8 py-6 text-white text-md font-semibold bg-[#0171DF] hover:bg-[#0171DF]'>Buy Template</Button>
           </div>
           
           {/* Mobile Menu Button */}

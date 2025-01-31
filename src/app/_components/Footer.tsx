@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex md:flex-row flex-col justify-between ">
          <Image src={footer} alt="" width={100}  />
          <div className="flex flex-col space-y-10 items-start md:w-1/2">
-         <div className="text-3xl font-semibold  text-[#002147]">Empowering your financial journey,<br />one transaction at a time.</div>
+         <div className="text-3xl font-semibold tracking-wider leading-[4rem] text-[#002147]">Empowering your financial journey,<br />one transaction at a time.</div>
          <Button className='rounded-full px-6 py-4 text-white text-md bg-[#0171DF] hover:bg-[#0171DF]'>Buy Template</Button>
          </div>
         </div>

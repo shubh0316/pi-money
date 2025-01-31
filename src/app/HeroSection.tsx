@@ -31,7 +31,7 @@ function HeroSection() {
   return (
     <div
       ref={heroRef}
-      className="w-full bg-gradient-to-b from-[#FEFFFD] h-[720px] via-[#FFFFFF] to-[#6DB6FF] rounded-bl-[100px] rounded-br-[100px] relative overflow-hidden md:mt-0 mt-10"
+      className="w-full bg-gradient-to-b from-[#FEFFFD] h-[720px] via-[#FFFFFF] to-[#6DB6FF] rounded-bl-[100px] rounded-br-[100px] relative overflow-hidden md:mt-0"
     >
       <Container>
         <div className="flex flex-col md:flex-row items-start justify-between relative z-10">

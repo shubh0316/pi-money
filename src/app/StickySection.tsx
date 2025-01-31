@@ -28,7 +28,6 @@ const steps = [
     image: netflix,
   },
 ];
-
 function StickySection() {
   useEffect(() => {
     if (window.innerWidth >= 768) {
@@ -48,11 +47,9 @@ function StickySection() {
       );
     }
   }, []);
-
   return (
     <div className="relative bg-custom-blue min-h-screen w-full">
       <div className="background absolute top-0 left-0 w-full md:block hidden" style={{ backgroundColor: "#002147", height: "0%" }}></div>
-
       <div className="flex justify-center py-10  md:py-40 relative z-10">
         <Container>
           <div className="flex flex-col md:flex-row h-full gap-40">
@@ -64,7 +61,6 @@ function StickySection() {
                 Three simple steps to unlock the power of GreenBank and revolutionize your banking experience.
               </p>
             </div>
-
             <div className="flex flex-col space-y-6 flex-grow md:p-0 p-2">
               {steps.map((step, index) => (
                 <div

@@ -16,7 +16,7 @@ const Footer = () => {
          </div>
         </div>
         <div className="p-6">
-          <Separator className="bg-black" />
+          <Separator className="bg-[#AAC2DA]" />
         </div>
         <div className="flex flex-col md:flex-row justify-between text-[#002147CC] tracking-wider items-start md:items-center  md:mb-0 mb-20 md:mt-10 space-y-4 md:space-y-0">
           <div className="underline">Designed By Breeje Anadkat</div>

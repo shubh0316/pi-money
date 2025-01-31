@@ -9,8 +9,8 @@ const Heading = () => {
         animate={{ opacity: 1, y: 0 }} // animate to visible and position
         transition={{ duration: 1, delay: 0.2 }} // transition duration and delay
       >
-        <h1 className="font-sans text-center text-5xl text-green-900 font-bold mt-20 space-x-2">
-          Discover What We <span className="text-green-400">Offer</span>
+        <h1 className="text-center text-5xl text-[#002147] font-semibold md:leading-tight md:tracking-wider mt-10 md:mt-20 space-x-2">
+          Discover What We <span className="text-[#0171DF]">Offer</span>
         </h1>
       </motion.div>
       <motion.div
@@ -18,7 +18,7 @@ const Heading = () => {
         animate={{ opacity: 1, y: 0 }} // animate to visible and position
         transition={{ duration: 1, delay: 0.4 }} // transition duration and delay
       >
-        <p className="font-sans text-2xl text-center text-green-900 mt-6 m-12 font-light ">
+        <p className=" text-[#334D6C] text-[20px] text-center md:mt-6 mt-4 md:m-12">
           Elevate your e-commerce experience with our powerful feature set
           <br />
           designed for unparalleled excellence.

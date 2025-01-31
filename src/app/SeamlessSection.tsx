@@ -13,8 +13,8 @@ function SeamlessSection() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Left Section - Text Content */}
         <div className="flex flex-col space-y-6 text-white mt-10 p-10 md:p-20">
-          <div className="text-5xl">Seamless Payment Integration</div>
-          <p>
+          <div className="text-5xl font-semibold">Seamless Payment<span className="text-[#0171DF]"> Integration </span></div>
+          <p className="text-[20px]">
             GreenBank seamlessly integrates with leading payment providers,
             offering you a wide range of options for convenient and secure
             transactions.

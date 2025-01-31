@@ -12,7 +12,7 @@ import MarqueeText from "./MarqueeText";
 export default function Home() {
   return (
   <>
-  <div className="bg-white rounded-bl-[100px] rounded-br-[100px] z-10 ">  
+  <div className="bg-white rounded-bl-[100px] rounded-br-[100px] z-10  ">  
   <HeroSection />
   <MarqueueSection />
   <Cardpage />

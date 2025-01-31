@@ -2,18 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Apply the font globally */
+html {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
 body {
-  @apply bg-white;
-}
-
-@font-face {
-  font-family: "CustomFont"; /* Ensure this matches */
-  src: url("/fonts/HelveticaNeueHeavyItalic.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Define Tailwind Utility */
-.font-custom {
-  font-family: "CustomFont", sans-serif;
+  @apply bg-white text-black;
 }

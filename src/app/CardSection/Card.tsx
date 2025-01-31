@@ -40,10 +40,10 @@ const Card = ({
       >
         <div className="w-[60%] ">
           <div className="mt-20  ml-10  mb-20 text-left flex flex-col justify-center">
-            <h1 className="text-4xl leading-relaxed text-green-900 font-semibold mb-6 space-y-52">
+            <h1 className="text-4xl leading-relaxed text-[#002147] font-semibold mb-6 space-y-52">
               {heading}
             </h1>
-            <p className="font-sans  text-[#47836f] font-light mt-6 text-2xl">
+            <p className="text-[#334D6C] font-light  text-lg">
               {description}
             </p>
           </div>

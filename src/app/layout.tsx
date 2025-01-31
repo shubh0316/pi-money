@@ -1,7 +1,15 @@
 import type { Metadata } from "next";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "./_components/Navbar";
 import Footer from "./_components/Footer";
+
+// Import Montserrat font
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+  display: "swap", // Prevents Flash of Unstyled Text (FOUT)
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -10,21 +18,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
-      <head>
-        <link
-          rel="preload"
-          href="/fonts/HelveticaNeueHeavyItalic.otf"
-          as="font"
-          type="font/otf"
-          crossOrigin="anonymous"
-        />
-      </head>
-      <body className= "font-custom text-foreground">
+    <html lang="en" className={montserrat.variable}>
+      <body className="font-montserrat text-foreground">
         <Navbar />
         {children}
         <Footer />

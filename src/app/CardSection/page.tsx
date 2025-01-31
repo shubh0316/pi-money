@@ -6,7 +6,7 @@ import Cards from './Cards'
 function Cardpage() {
   return (
     <div>
-       <div className='my-40'><Heading /></div>
+       <div className='my-20 md:my-40'><Heading /></div>
       <div className='mt-20 mb-16'><Cards /></div>
     </div>
   )

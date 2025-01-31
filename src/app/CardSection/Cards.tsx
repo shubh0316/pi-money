@@ -23,7 +23,7 @@ const Cards = () => {
               "Keep track of multiple credit cards effortlessly within the GreenBank app. Monitor balances, track transactions, and stay on top of payments without switching between different accounts."
             }
             imgUrl={"/image_15.png"}
-            bgColor={"bg-orange-50"}
+            bgColor={"bg-[#D4EAFF]"}
             imgWidth={600}
             marginLeft={"left-12"}
           />
@@ -39,7 +39,7 @@ const Cards = () => {
               "Set and track your financial goals with GreenBank's tailored planning tools. Whether it's saving for a vacation, a new home, or retirement, we'll help you stay on target and achieve your dreams."
             }
             imgUrl={"/image_18.png"}
-            bgColor={"bg-green-300"}
+            bgColor={"bg-[#FFF5C5]"}
             imgWidth={250}
             marginLeft={"left-12"}
           />
@@ -52,7 +52,7 @@ const Cards = () => {
               "Gain valuable insights into your spending habits with GreenBank's intelligent analysis tools. Understand where your money is going, receive personalized recommendations for saving, and make informed financial decisions to achieve your goals faster."
             }
             imgUrl={"/image_21.png"}
-            bgColor={"bg-green-100"}
+            bgColor={"bg-[#E4E6F9]"}
             imgWidth={250}
             marginLeft={"left-12"}
           />
@@ -60,28 +60,28 @@ const Cards = () => {
       </div>
 
       {/* Mobile View */}
-      <div className="md:hidden flex flex-col space-y-8">
-        <div className="p-6 bg-orange-50 rounded-xl">
+      <div className="md:hidden flex flex-col space-y-8 leading-relaxed tracking-wider">
+        <div className="p-6 bg-[#D4EAFF] rounded-xl">
           <h2 className="text-xl font-bold mb-2">Manage All Your Credit Cards in One Place.</h2>
-          <p className="text-gray-600">
+          <p className="text-[#334D6C] text-md">
             Keep track of multiple credit cards effortlessly within the GreenBank app. Monitor balances, track transactions, and stay on top of payments without switching between different accounts.
           </p>
           <div className="mt-4 flex justify-center">
             <img src="/image_15.png" alt="Credit Cards" className="w-full max-w-xs" />
           </div>
         </div>
-        <div className="p-6 bg-green-300 rounded-xl">
+        <div className="p-6 bg-[#FFF5C5] rounded-xl">
           <h2 className="text-xl font-bold mb-2">Goal-Oriented Financial Planning.</h2>
-          <p className="text-gray-600">
+          <p className="text-[#334D6C] text-md">
             Set and track your financial goals with GreenBank's tailored planning tools. Whether it's saving for a vacation, a new home, or retirement, we'll help you stay on target and achieve your dreams.
           </p>
           <div className="mt-4 flex justify-center">
             <img src="/image_18.png" alt="Financial Planning" className="w-full max-w-xs" />
           </div>
         </div>
-        <div className="p-6 bg-green-100 rounded-xl">
+        <div className="p-6 bg-[#E4E6F9] rounded-xl">
           <h2 className="text-xl font-bold mb-2">Smart Spending Insights.</h2>
-          <p className="text-gray-600">
+          <p className="text-[#334D6C] text-md">
             Gain valuable insights into your spending habits with GreenBank's intelligent analysis tools. Understand where your money is going, receive personalized recommendations for saving, and make informed financial decisions to achieve your goals faster.
           </p>
           <div className="mt-4 flex justify-center">

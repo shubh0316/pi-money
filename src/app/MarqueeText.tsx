@@ -3,7 +3,13 @@ import Marquee from "react-fast-marquee";
 
 function MarqueeText() {
   return (
-    <div className="bg-white rounded-bl-[100px] rounded-br-[100px]  p-6 mt-40">
+    <div className="relative bg-white rounded-bl-[100px] rounded-br-[100px] p-6 mt-40 overflow-hidden">
+      {/* Left shadow */}
+      <div className="absolute top-0 left-0 h-full w-20 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+      
+      {/* Right shadow */}
+      <div className="absolute top-0 right-0 h-full w-20 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
+
       <Marquee speed={50} gradient={false} className="flex items-center space-x-8">
         {[...Array(10)].map((_, index) => (
           <div key={index} className="flex items-center space-x-4 mb-20">

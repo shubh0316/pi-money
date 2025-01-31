@@ -6,24 +6,25 @@ import footer from "@/assets/footer.png";
 import { Button } from "@/components/ui/Button";
 const Footer = () => {
   return (
-    <footer className="bg-[#D4EAFF] font-sans py-8  sticky bottom-0 -z-20">
+    <footer className="bg-[#D4EAFF]  py-8  sticky bottom-0 -z-20">
       <Container>
         <div className="flex md:flex-row flex-col justify-between ">
-         <Image src={footer} alt="" width={500} height={10} />
-         <div className="flex flex-col space-y-6 items-start md:w-1/2">
-         <div className="text-4xl">Empowering your financial journey, one transaction at a time.</div>
-         <Button className='border rounded-full px-6 py-3 text-lg bg-[#0171DF] hover:bg-[#0171DF]'>Buy Template</Button>
+         <Image src={footer} alt="" width={200} height={50} />
+         <div className="flex flex-col space-y-10 items-start md:w-1/2">
+         <div className="text-3xl font-semibold  text-[#002147]">Empowering your financial journey,<br />one transaction at a time.</div>
+         <Button className='rounded-full px-6 py-4 text-white text-md bg-[#0171DF] hover:bg-[#0171DF]'>Buy Template</Button>
          </div>
         </div>
- 
-        <div className="p-6  md:mt-20">
+        <div className="p-6">
           <Separator className="bg-black" />
         </div>
-
-        <div className="flex flex-col md:flex-row justify-between itemse-start md:items-center underline md:mb-0 mb-20 md:mt-10 space-y-4 md:space-y-0">
-          <div>Get this Template</div>
-          <div>All rights Reserved</div>
-          <div>Get this Template</div>
+        <div className="flex flex-col md:flex-row justify-between text-[#002147CC] tracking-wider items-start md:items-center  md:mb-0 mb-20 md:mt-10 space-y-4 md:space-y-0">
+          <div className="underline">Designed By Breeje Anadkat</div>
+          <div>© 2024 GreenBank. All Rights Reserved.</div>
+          <div className=" md:space-x-4 flex-col md:flex underline">
+            <p>Built in Next.js</p>
+            <p>Get This Template</p>
+          </div>
         </div>
       </Container>
     </footer>

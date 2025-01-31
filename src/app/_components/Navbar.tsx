@@ -21,15 +21,15 @@ function Navbar() {
           </div>
           
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-6">
-            <Link href="/" className="text-lg hover:text-blue-500">Home</Link>
-            <Link href="/AboutUs" className="text-lg hover:text-blue-500">About Us</Link>
-            <Link href="/ContactUs" className="text-lg hover:text-blue-500">Contact Us</Link>
+          <div className="hidden md:flex space-x-6 ">
+            <Link href="/" className="text-md text-[#002147] hover:text-blue-500">Home</Link>
+            <Link href="/AboutUs" className="text-md text-[#002147] hover:text-blue-500">About Us</Link>
+            <Link href="/ContactUs" className="text-md text-[#002147] hover:text-blue-500">Contact Us</Link>
           </div>
           
           {/* Button */}
           <div className="hidden md:block">
-            <Button className='border rounded-full px-6 py-3 text-white text-lg bg-[#0171DF] hover:bg-[#0171DF]'>Buy Template</Button>
+            <Button className='border rounded-full px-8 py-6 text-white text-md font-normal bg-[#0171DF] hover:bg-[#0171DF]'>Buy Template</Button>
           </div>
           
           {/* Mobile Menu Button */}
@@ -48,10 +48,10 @@ function Navbar() {
         transition={{ duration: 0.3, ease: 'easeInOut' }}
         className="absolute w-full bg-white  overflow-hidden md:hidden flex flex-col items-start space-y-4 py-4 px-8"
       >
-          <Link href="/" className="text-lg hover:text-blue-500">Home</Link>
-          <Link href="/AboutUs" className="text-lg hover:text-blue-500">About Us</Link>
-          <Link href="/ContactUs" className="text-lg hover:text-blue-500">Contact Us</Link>
-        <Button className='border rounded-full text-white px-6 py-3 text-lg bg-[#0171DF] hover:bg-[#0171DF]'>Buy Template</Button>
+          <Link href="/" className="text-md text-[#002147] hover:text-blue-500">Home</Link>
+          <Link href="/AboutUs" className="text-md text-[#002147] hover:text-blue-500">About Us</Link>
+          <Link href="/ContactUs" className="text-md text-[#002147] hover:text-blue-500">Contact Us</Link>
+        <Button className='rounded-full text-white px-6 py-3 text-md bg-[#0171DF] hover:bg-[#0171DF]'>Buy Template</Button>
       </motion.div>
     </nav>
   );

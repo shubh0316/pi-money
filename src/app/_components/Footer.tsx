@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="bg-[#D4EAFF]  py-8  sticky bottom-0 -z-20">
       <Container>
         <div className="flex md:flex-row flex-col justify-between ">
-         <Image src={footer} alt="" width={200} height={50} />
+         <Image src={footer} alt="" width={100}  />
          <div className="flex flex-col space-y-10 items-start md:w-1/2">
          <div className="text-3xl font-semibold  text-[#002147]">Empowering your financial journey,<br />one transaction at a time.</div>
          <Button className='rounded-full px-6 py-4 text-white text-md bg-[#0171DF] hover:bg-[#0171DF]'>Buy Template</Button>
@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between text-[#002147CC] tracking-wider items-start md:items-center  md:mb-0 mb-20 md:mt-10 space-y-4 md:space-y-0">
           <div className="underline">Designed By Breeje Anadkat</div>
           <div>© 2024 GreenBank. All Rights Reserved.</div>
-          <div className=" md:space-x-4 flex-col md:flex underline">
+          <div className="space-x-4 flex underline">
             <p>Built in Next.js</p>
             <p>Get This Template</p>
           </div>

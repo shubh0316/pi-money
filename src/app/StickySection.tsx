@@ -53,7 +53,7 @@ function StickySection() {
     <div className="relative bg-custom-blue min-h-screen w-full">
       <div className="background absolute top-0 left-0 w-full md:block hidden" style={{ backgroundColor: "#002147", height: "0%" }}></div>
 
-      <div className="flex justify-center py-20 md:py-40 relative z-10">
+      <div className="flex justify-center py-10  md:py-40 relative z-10">
         <Container>
           <div className="flex flex-col md:flex-row h-full gap-40">
             <div className="text-white max-w-md md:sticky md:top-20 self-start flex-shrink-0 z-10">
@@ -65,7 +65,7 @@ function StickySection() {
               </p>
             </div>
 
-            <div className="flex flex-col space-y-6 flex-grow">
+            <div className="flex flex-col space-y-6 flex-grow md:p-0 p-2">
               {steps.map((step, index) => (
                 <div
                   key={index}
